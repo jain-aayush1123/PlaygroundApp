@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "785899548058",
+    "firebase_url": "https://mlpractice-75c80.firebaseio.com",
+    "project_id": "mlpractice-75c80",
+    "storage_bucket": "mlpractice-75c80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785899548058:android:9494d036337ede72975e23",
+        "android_client_info": {
+          "package_name": "awsm.awsmizng.u.banking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785899548058-7lt2krr1t337hr7f8c7q090u4d331olv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjADhKBxBjSppzSe3AYnv3avz98RCnMjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785899548058-7lt2krr1t337hr7f8c7q090u4d331olv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
