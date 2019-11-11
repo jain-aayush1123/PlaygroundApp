@@ -26,20 +26,22 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
-
+    //drawing graphs
     implementation 'com.jjoe64:graphview:4.2.2'
-
+    //firebase
     implementation 'com.google.firebase:firebase-analytics:17.2.1'
-
+    //machine learning
     implementation 'com.google.firebase:firebase-ml-vision:24.0.0'
     implementation 'com.google.firebase:firebase-ml-vision-image-label-model:19.0.0'
     implementation 'com.google.firebase:firebase-ml-vision-object-detection-model:19.0.2'
-
+    //automatically handle camera view lifecycle
     implementation 'com.otaliastudios:cameraview:2.4.0'
-
+    //image loading
     implementation 'com.squareup.picasso:picasso:2.5.2'
-
+    //butterknife
     implementation 'com.jakewharton:butterknife:8.2.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.2.1'
+    //implemting motion layout
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-beta3'
 }
 apply plugin: 'com.google.gms.google-services'
