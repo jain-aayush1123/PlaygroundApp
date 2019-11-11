@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.CollapsingToolbar"></activity>
+        <activity android:name=".Activities.DynamicToolbarActivity"></activity>
+        <activity android:name=".Activities.CollapsingToolbar" />
         <activity android:name=".Activities.ObjectDetection" />
         <activity android:name=".Index">
             <intent-filter>

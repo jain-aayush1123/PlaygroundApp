@@ -8,6 +8,7 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import awsm.awsmizng.u.banking.Activities.CollapsingToolbar;
+import awsm.awsmizng.u.banking.Activities.DynamicToolbarActivity;
 import awsm.awsmizng.u.banking.Activities.FirebaseML;
 import awsm.awsmizng.u.banking.Activities.GraphSimple;
 import awsm.awsmizng.u.banking.Activities.ObjectDetection;
@@ -30,7 +31,7 @@ public class Index extends AppCompatActivity {
         ButterKnife.bind(this);
     }
     
-    @OnClick({R.id.btGraph, R.id.btML, R.id.btObjectTracking, R.id.btCollapsingToolbar})
+    @OnClick({R.id.btGraph, R.id.btML, R.id.btObjectTracking, R.id.btCollapsingToolbar, R.id.btDynamicToolbar})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btGraph:
@@ -43,6 +44,10 @@ public class Index extends AppCompatActivity {
                 funStartActivity(ObjectDetection.class);
             case R.id.btCollapsingToolbar:
                 funStartActivity(CollapsingToolbar.class);
+                break;
+            case R.id.btDynamicToolbar:
+                funStartActivity(DynamicToolbarActivity.class);
+                break;
         }
     }
     
